@@ -8,7 +8,11 @@ This is an amazing session!
 
 What is your favorite animal?
 
--Walrus
+
+- Walrus
+- Panda
+- Autobot
+- giraffe
 -
 -
 -
