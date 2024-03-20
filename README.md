@@ -2,7 +2,7 @@
 
 ---
 
-This is a workshop example repository for the March 2024 series of GitHub workshops.
+This is an example repository for the March 2024 series of GitHub workshops.
 
 ## Colaborative file building demo from session 2
 
