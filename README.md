@@ -19,8 +19,8 @@ What is your favorite animal?
 - Panda
 - Autobot
 - giraffe
--
--
+- Dog
+-elephant
 -
 -
 -
