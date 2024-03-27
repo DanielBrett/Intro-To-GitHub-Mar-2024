@@ -1,0 +1,28 @@
+name: JPG Mover
+
+on:
+  push:
+    paths:
+      "**.jpg"
+
+permissions:
+  contents: write
+
+jobs:
+
+  move-jpgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.2
+
+      - name: Move the images to Images folder
+        run: mv *.jpg Images/
+
+      - name: Commit changes to repo
+        run: |
+          git config --global user.name "DanielBrett"
+          git config --global user.email "dbrett@brocku.ca"
+          git add .
+          git commit -m "JPG Mover was activated!"
+          git push
